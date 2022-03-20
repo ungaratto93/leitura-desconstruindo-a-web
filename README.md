@@ -41,4 +41,4 @@ ps xufa | grep [c]hromium | wc -l 19
 </p>
 
 <p>Observando o caminho para resolucao do dns</p>
-<p><code>dnstracer -s . -4 -o desconstruindoaweb.com.br</code></p>
+<p><code>➜ dnstracer -s . -4 -o desconstruindoaweb.com.br</code></p>
