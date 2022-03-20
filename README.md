@@ -20,6 +20,9 @@ ps xufa | grep [c]hromium | wc -l 19
 
 <h2>Capítulo 3</h2>
 <p>Consulta o dns</p>
-<code>
-➜ dig desconstruindoaweb.com.br
-</code>
+<p>
+  <code>➜ dig desconstruindoaweb.com.br</code>
+</p>
+<p>
+  <code>➜ dig ungaratto93.github.io</code>
+</p>
