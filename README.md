@@ -39,3 +39,6 @@ ps xufa | grep [c]hromium | wc -l 19
 <p>
   <code>➜ sudo strace -f -e socket,connect -p 10036</code>
 </p>
+
+<p>Observando o caminho para resolucao do dns</p>
+<p><code>dnstracer -s . -4 -o desconstruindoaweb.com.br</code></p>
