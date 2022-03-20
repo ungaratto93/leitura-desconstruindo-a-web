@@ -31,3 +31,11 @@ ps xufa | grep [c]hromium | wc -l 19
 <p>
   <code>➜ ps aux | grep 'google'</code>
 </p>
+<p>
+  <code>❯ ps aux | grep 'opt/google/chrome/chrome --'</code>
+</p
+
+<p>Usando strace para observar syscall usadas no pid (Process Identifiers)</p>
+<p>
+  <code>➜ sudo strace -f -e socket,connect -p 10036</code>
+</p>
