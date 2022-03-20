@@ -26,3 +26,8 @@ ps xufa | grep [c]hromium | wc -l 19
 <p>
   <code>➜ dig ungaratto93.github.io</code>
 </p>
+
+<p>Listando os processos do chrome</p>
+<p>
+  <code>➜ ps aux | grep 'google'</code>
+</p>
