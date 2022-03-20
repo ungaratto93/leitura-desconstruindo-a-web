@@ -17,3 +17,9 @@ ps xufa | grep [c]hromium | wc -l 19
   <code>
     ❯ python3 -c 'import socket;print(socket.getaddrinfo("desconstruindoaweb.com.br", "http"))'
   </code>
+
+<h2>Capítulo 3</h2>
+<p>Consulta o dns</p>
+<code>
+➜ dig desconstruindoaweb.com.br
+</code>
