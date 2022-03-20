@@ -35,7 +35,7 @@ ps xufa | grep [c]hromium | wc -l 19
   <code>❯ ps aux | grep 'opt/google/chrome/chrome --'</code>
 </p
 
-<p>Usando strace para observar syscall usadas no pid (Process Identifiers)</p>
+<p>Usando strace para observar syscall usadas no pid (Process Identifiers) do chrome para por fim atribuir a sockets </p>
 <p>
   <code>➜ sudo strace -f -e socket,connect -p 10036</code>
 </p>
