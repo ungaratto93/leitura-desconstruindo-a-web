@@ -42,3 +42,14 @@ Comandos por capítulo
 
 <p>Observando o caminho para resolucao do dns</p>
 <p><code>➜ dnstracer -s . -4 -o desconstruindoaweb.com.br</code></p>
+
+<h4>Capitulo 4</h4>
+<p>Executando telnet e recuperando conteudo textual da pagina</p>
+<p>
+  <code>
+telnet www.google.com 80
+  </code>
+<code>
+GET / HTTP/1.1       
+HOST: www.google.com</code>
+</p>
