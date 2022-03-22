@@ -49,6 +49,7 @@ Comandos por capítulo
   <code>
 telnet www.google.com 80
   </code>
+  <br>
 <code>
 GET / HTTP/1.1       
 HOST: www.google.com</code>
