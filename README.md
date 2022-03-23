@@ -80,3 +80,6 @@ HOST: www.google.com</code>
 </code>
 </p>
 <br>
+<p>Verificando a quantidade de redes wifi e seus canais</p>
+<p><code>➜ nmcli device wifi list | grep Infra | wc -l
+</code></p>
