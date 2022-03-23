@@ -55,3 +55,8 @@ GET / HTTP/1.1
   
 HOST: www.google.com</code>
 </p>
+
+<h2>Capitulo 5</h2>
+<p>Verificando os certificados instalados no SO</p>
+<p><code>➜ ls /etc/ssl/certs/
+</code></p>
