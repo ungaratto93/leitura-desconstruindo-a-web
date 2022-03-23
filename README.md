@@ -60,3 +60,6 @@ HOST: www.google.com</code>
 <p>Verificando os certificados instalados no SO</p>
 <p><code>➜ ls /etc/ssl/certs/
 </code></p>
+<br>
+<p>Testando a conexao https manualmente</p>
+<p><code>openssl s_client -connect desconstruindoaweb.com.br:443</code></p
