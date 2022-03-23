@@ -69,3 +69,10 @@ HOST: www.google.com</code>
 <p>
   <code>sudo ethtool eno1</code>
 </p>
+<br>
+<p>Listando o dispositivo utilizado para conectar na rede wireless</p>
+<p><code>➜ lsusb | grep -i wi</code></p>
+<p>
+Bus 003 Device 004: ID 0bda:8179 Realtek Semiconductor Corp. RTL8188EUS 802.11n Wireless Network Adapter
+</p>
+
