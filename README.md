@@ -72,7 +72,11 @@ HOST: www.google.com</code>
 <br>
 <p>Listando o dispositivo utilizado para conectar na rede wireless</p>
 <p><code>➜ lsusb | grep -i wi</code></p>
+<br>
+<p>Procurando por modulos que implementem a funcionalidade do hardware</p>
 <p>
-Bus 003 Device 004: ID 0bda:8179 Realtek Semiconductor Corp. RTL8188EUS 802.11n Wireless Network Adapter
+<code>
+➜ lsmod | grep -i 818
+</code>
 </p>
-
+<br>
