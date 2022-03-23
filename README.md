@@ -62,7 +62,7 @@ HOST: www.google.com</code>
 </code></p>
 <br>
 <p>Testando a conexao https manualmente</p>
-<p><code>openssl s_client -connect desconstruindoaweb.com.br:443</code></p
+<p><code>openssl s_client -connect desconstruindoaweb.com.br:443</code></p>
 
 <h2>Capitulo 6</h2>
 <p>Descobrindo quais partes da ethernet estamos usando</p>
