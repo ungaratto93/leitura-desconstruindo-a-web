@@ -87,3 +87,7 @@ HOST: www.google.com</code>
 <p>Verificando os canais</p>
 <p><code>➜ nmcli device wifi list | grep Infra | sed 's/.*Infra\s\+\([0-9]\
 ∙ +\).*/\1/g' | sort -n</code></p>
+<br>
+<p>Verificando quem está entre nosso dispositivo de origem e o dispositivo destino</p>
+<p><code>traceroute
+-q 1 -T desconstruindoaweb.com.br</code></p>
