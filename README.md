@@ -83,3 +83,7 @@ HOST: www.google.com</code>
 <p>Verificando a quantidade de redes wifi e seus canais</p>
 <p><code>➜ nmcli device wifi list | grep Infra | wc -l
 </code></p>
+<br>
+<p>Verificando os canais</p>
+<p><code>➜ nmcli device wifi list | grep Infra | sed 's/.*Infra\s\+\([0-9]\
+∙ +\).*/\1/g' | sort -n</code></p>
