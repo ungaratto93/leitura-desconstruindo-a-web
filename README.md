@@ -102,3 +102,6 @@ HOST: www.google.com</code>
 <br>
 <p>Fazendo chamada com curl para estudo do passenger server app</p>
 <p><code>curl -vvv http://desconstruindoaweb.com.br</code></p>
+<br>
+<p>Observando os processos do passenger</p>
+<p><code>ps xufa | grep "[P]assenger" | sed -r 's/.*:[0-9]{2}\s(.*)/\1/g'</code></p>
