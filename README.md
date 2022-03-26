@@ -99,3 +99,6 @@ HOST: www.google.com</code>
 <br>
 <p>Verificando a versao do kernel</p>
 <p><code>uname -r</code></p>
+<br>
+<p>Fazendo chamada com curl para estudo do passenger server app</p>
+<p><code>curl -vvv http://desconstruindoaweb.com.br</code></p>
