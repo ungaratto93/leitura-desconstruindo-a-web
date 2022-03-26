@@ -90,3 +90,9 @@ HOST: www.google.com</code>
 <br>
 <p>Verificando quem está entre nosso dispositivo de origem e o dispositivo destino</p>
 <p><code>sudo traceroute -q 1 -T desconstruindoaweb.com.br</code></p>
+<h2>Capitulo 7</h2>
+<p>Acompanhando os processos do nginx</p>
+<p><code>strace -f nginx</code></p>
+<br>
+<p>Observando os processos em execucao</p>
+<p><code>ps fexa -o pid,cmd | grep "[n]ginx:"</code></p>
