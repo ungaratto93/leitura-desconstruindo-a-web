@@ -96,3 +96,6 @@ HOST: www.google.com</code>
 <br>
 <p>Observando os processos em execucao</p>
 <p><code>ps fexa -o pid,cmd | grep "[n]ginx:"</code></p>
+<br>
+<p>Verificando a versao do kernel</p>
+<p><code>uname -r</code></p>
