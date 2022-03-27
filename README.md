@@ -89,19 +89,22 @@ HOST: www.google.com</code>
 ∙ +\).*/\1/g' | sort -n</code></p>
 <br>
 <p>Verificando quem está entre nosso dispositivo de origem e o dispositivo destino</p>
-<p><code>sudo traceroute -q 1 -T desconstruindoaweb.com.br</code></p>
+<p><code>➜ sudo traceroute -q 1 -T desconstruindoaweb.com.br</code></p>
 <h2>Capitulo 7</h2>
 <p>Acompanhando os processos do nginx</p>
-<p><code>strace -f nginx</code></p>
+<p><code>➜ strace -f nginx</code></p>
 <br>
 <p>Observando os processos em execucao</p>
-<p><code>ps fexa -o pid,cmd | grep "[n]ginx:"</code></p>
+<p><code>➜ ps fexa -o pid,cmd | grep "[n]ginx:"</code></p>
 <br>
 <p>Verificando a versao do kernel</p>
-<p><code>uname -r</code></p>
+<p><code>➜ uname -r</code></p>
 <br>
 <p>Fazendo chamada com curl para estudo do passenger server app</p>
-<p><code>curl -vvv http://desconstruindoaweb.com.br</code></p>
+<p><code>➜ curl -vvv http://desconstruindoaweb.com.br</code></p>
 <br>
 <p>Observando os processos do passenger</p>
-<p><code>ps xufa | grep "[P]assenger" | sed -r 's/.*:[0-9]{2}\s(.*)/\1/g'</code></p>
+<p><code>➜ ps xufa | grep "[P]assenger" | sed -r 's/.*:[0-9]{2}\s(.*)/\1/g'</code></p>
+<h2>Capitulo 9</h2>
+<p>Comando para carregar o arquivo config.ru</p>
+<p><code>>➜ rackup</code></p>
