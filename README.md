@@ -105,6 +105,6 @@ HOST: www.google.com</code>
 <br>
 <p>Observando os processos do passenger</p>
 <p><code>➜ ps xufa | grep "[P]assenger" | sed -r 's/.*:[0-9]{2}\s(.*)/\1/g'</code></p>
-<h2>Capitulo 9</h2>
+<h2>Capitulo 8</h2>
 <p>Comando para carregar o arquivo config.ru</p>
-<p><code>>➜ rackup</code></p>
+<p><code>➜ rackup</code></p>
