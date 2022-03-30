@@ -33,7 +33,6 @@ Comandos por capítulo
 </p>
 <p>
   <code>❯ ps aux | grep 'opt/google/chrome/chrome --'</code>
-</p
 
 <p>Usando strace para observar syscall usadas no pid (Process Identifiers) do chrome para por fim atribuir a sockets </p>
 <p>
@@ -108,3 +107,9 @@ HOST: www.google.com</code>
 <h2>Capitulo 8</h2>
 <p>Comando para carregar o arquivo config.ru</p>
 <p><code>➜ rackup</code></p>
+
+
+<br>
+<h2>Capitulo 9</h2>
+<p>Extraindo os cabecalhos de resposta</p>
+<p><code>curl -vvv https://desconstruindoaweb.com.br/ |& grep "<" </code></p>
