@@ -113,3 +113,6 @@ HOST: www.google.com</code>
 <h2>Capitulo 9</h2>
 <p>Extraindo os cabecalhos de resposta</p>
 <p><code>curl -vvv https://desconstruindoaweb.com.br/ |& grep "<" </code></p>
+  <p>Visualizar o processo de painting</p>
+    <p><code>chromium --incognito --show-paint-rects https://desconstruind
+oaweb.com.br</code></p>
