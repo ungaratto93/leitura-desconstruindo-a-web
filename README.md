@@ -116,3 +116,6 @@ HOST: www.google.com</code>
   <p>Visualizar o processo de painting</p>
     <p><code>chromium --incognito --show-paint-rects https://desconstruind
 oaweb.com.br</code></p>
+
+  <p>Visualizar processo do chrome que usa gpu para processo de renderização</p>
+    <p><code>➜ ps xo cmd | grep chrome | grep gpu</code></p>
